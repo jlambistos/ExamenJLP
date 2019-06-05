@@ -20,49 +20,61 @@ public class ExamenJL {
         //Inicializacion de variables introducidas por JOptionPane
 
         String sum1 = JOptionPane.showInputDialog("Ingresa valor 1º :");
-       
+
         double sum1double = Double.parseDouble(sum1);
         String sum2 = JOptionPane.showInputDialog("Ingresa valor 2º :");
-        
+
         double sum2double = Double.parseDouble(sum2);
         String sum3 = JOptionPane.showInputDialog("Ingresa valor 3º :");
-        
+
         double sum3double = Double.parseDouble(sum3);
-        
-        double sumar = sum1double + sum1double + sum1double;
+
+        double sumar = sum1double + sum2double + sum3double;
         JOptionPane.showConfirmDialog(null, "Operación Suma " + sumar);
+        /////////////////////////////////////////////
+
+        String res1 = JOptionPane.showInputDialog("Ingresa valor 1º :");
+
+        double res1double = Double.parseDouble(res1);
+        String res2 = JOptionPane.showInputDialog("Ingresa valor 2º :");
+
+        double res2double = Double.parseDouble(res2);
+        String res3 = JOptionPane.showInputDialog("Ingresa valor 3º :");
+
+        double res3double = Double.parseDouble(res3);
+
+        double res = res1double - res1double - res1double;
+        JOptionPane.showConfirmDialog(null, "Operación Resta " + res);
+        ////////////////////////////////////////////
+
+        String mult1 = JOptionPane.showInputDialog("Ingresa valor 1º :");
+
+        double mult1double = Double.parseDouble(mult1);
+        String mult2 = JOptionPane.showInputDialog("Ingresa valor 2º :");
+
+        double mult2double = Double.parseDouble(mult2);
+        String mult3 = JOptionPane.showInputDialog("Ingresa valor 3º :");
+
+        double mult3double = Double.parseDouble(mult3);
+
+        double mult = mult1double * mult1double * mult1double;
+        JOptionPane.showConfirmDialog(null, "Operación Multiplicación " + mult);
         
+        /////////////////////////////////////////////
+        
+        String div1 = JOptionPane.showInputDialog("Ingresa valor 1º :");
 
-        int rest1 = 10;
+        double div1double = Double.parseDouble(div1);
+        String div2 = JOptionPane.showInputDialog("Ingresa valor 2º :");
 
-        int rest2 = 20;
+        double div2double = Double.parseDouble(div2);
+        String div3 = JOptionPane.showInputDialog("Ingresa valor 3º :");
 
-        int rest3 = 30;
+        double div3double = Double.parseDouble(div3);
 
-        int restar = rest1 - rest2 - rest3;
-
-        System.out.println("Operación Restar =  " + restar);
-
-        int mul1 = 10;
-
-        int mul2 = 20;
-
-        int mul3 = 30;
-
-        int multiplicar = mul1 * mul2 * mul3;
-
-        System.out.println("Operación Multiplicar = " + multiplicar);
-
-        int div1 = 10;
-
-        int div2 = 20;
-
-        int div3 = 30;
-
-        int dividir = div1 / div2 / div3;
-
-        System.out.println("Operación dividir = " + dividir);
-
+        double div = div1double / div1double / div1double;
+        JOptionPane.showConfirmDialog(null, "Operación Dividir " + div);
+        
     }
 
 }
