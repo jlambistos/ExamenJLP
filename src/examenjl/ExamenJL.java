@@ -24,6 +24,8 @@ public class ExamenJL {
      * division.
      *
      * @param args the command line arguments
+     * @version 05/06/2019
+     * @since 18:57 horas
      */
     public static void main(String[] args) {
         JOptionPane.showMessageDialog(null, "Programa que realizará una suma. ");

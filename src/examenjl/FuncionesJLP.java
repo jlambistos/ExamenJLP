@@ -23,10 +23,10 @@ public class FuncionesJLP {
      * @param sum2 the value of sum2
      * @param sum3 the value of sum3
      * @since 18:20horas
-     * @throws NumberFormatException
+     * @throws NumberFormatException 
      * @throws HeadlessException
      */
-    static void Sumar(String numero1, String sum2, String sum3) throws NumberFormatException, HeadlessException {
+    public static void Sumar(String numero1, String sum2, String sum3) throws NumberFormatException, HeadlessException {
 
         double sum1double = Double.parseDouble(numero1);
         double sum2double = Double.parseDouble(sum2);
@@ -46,7 +46,7 @@ public class FuncionesJLP {
      * @throws NumberFormatException
      * @throws HeadlessException
      */
-    static void MetodoMultiplicar(String mult1, String mult2, String mult3) throws NumberFormatException, HeadlessException {
+    public static void MetodoMultiplicar(String mult1, String mult2, String mult3) throws NumberFormatException, HeadlessException {
 
         double mult1double = Double.parseDouble(mult1);
         double mult2double = Double.parseDouble(mult2);
@@ -66,7 +66,7 @@ public class FuncionesJLP {
      * @throws NumberFormatException
      * @throws HeadlessException
      */
-    static void MetodoRestar(String numresta1, String res2, String res3) throws NumberFormatException, HeadlessException {
+    public static void MetodoRestar(String numresta1, String res2, String res3) throws NumberFormatException, HeadlessException {
         double res1double = Double.parseDouble(numresta1);
         double res2double = Double.parseDouble(res2);
         double res3double = Double.parseDouble(res3);
@@ -85,7 +85,7 @@ public class FuncionesJLP {
      * @throws NumberFormatException
      * @throws HeadlessException
      */
-    static void MetodoDividir(String div1, String div2, String div3) throws NumberFormatException, HeadlessException {
+    public static void MetodoDividir(String div1, String div2, String div3) throws NumberFormatException, HeadlessException {
 
         double div1double = Double.parseDouble(div1);
         double div2double = Double.parseDouble(div2);
