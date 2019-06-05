@@ -23,8 +23,12 @@ public class FuncionesJLP {
      * @param sum2 the value of sum2
      * @param sum3 the value of sum3
      * @since 18:20horas
-     * @throws NumberFormatException 
-     * @throws HeadlessException
+     * @throws NumberFormatException Se lanza cuando se llama al código que
+     * depende de un teclado, pantalla o mouse en un entorno que no admite
+     * teclado, pantalla o mouse.
+     * @throws HeadlessException Se lanza cuando se llama al código que depende
+     * de un teclado, pantalla o mouse en un entorno que no admite teclado,
+     * pantalla o mouse.
      */
     public static void Sumar(String numero1, String sum2, String sum3) throws NumberFormatException, HeadlessException {
 
@@ -32,7 +36,7 @@ public class FuncionesJLP {
         double sum2double = Double.parseDouble(sum2);
         double sum3double = Double.parseDouble(sum3);
         double sumar = sum1double + sum2double + sum3double;
-        
+
         JOptionPane.showMessageDialog(null, "Operación Suma " + sumar);
     }
 
@@ -43,8 +47,12 @@ public class FuncionesJLP {
      * @param mult2 the value of mult2
      * @param mult3 the value of mult3
      * @since 18:30horas
-     * @throws NumberFormatException
-     * @throws HeadlessException
+     * @throws NumberFormatException Se lanza cuando se llama al código que
+     * depende de un teclado, pantalla o mouse en un entorno que no admite
+     * teclado, pantalla o mouse.
+     * @throws HeadlessException Se lanza cuando se llama al código que depende
+     * de un teclado, pantalla o mouse en un entorno que no admite teclado,
+     * pantalla o mouse.
      */
     public static void MetodoMultiplicar(String mult1, String mult2, String mult3) throws NumberFormatException, HeadlessException {
 
@@ -63,8 +71,12 @@ public class FuncionesJLP {
      * @param res2 the value of res2
      * @param res3 the value of res3
      * @since 18:31horas
-     * @throws NumberFormatException
-     * @throws HeadlessException
+     * @throws NumberFormatException Se lanza cuando se llama al código que
+     * depende de un teclado, pantalla o mouse en un entorno que no admite
+     * teclado, pantalla o mouse.
+     * @throws HeadlessException Se lanza cuando se llama al código que depende
+     * de un teclado, pantalla o mouse en un entorno que no admite teclado,
+     * pantalla o mouse.
      */
     public static void MetodoRestar(String numresta1, String res2, String res3) throws NumberFormatException, HeadlessException {
         double res1double = Double.parseDouble(numresta1);
@@ -82,8 +94,12 @@ public class FuncionesJLP {
      * @param div2 the value of div2
      * @param div3 the value of div3
      * @since 18:32horas
-     * @throws NumberFormatException
-     * @throws HeadlessException
+     * @throws NumberFormatException Se lanza cuando se llama al código que
+     * depende de un teclado, pantalla o mouse en un entorno que no admite
+     * teclado, pantalla o mouse.
+     * @throws HeadlessException Se lanza cuando se llama al código que depende
+     * de un teclado, pantalla o mouse en un entorno que no admite teclado,
+     * pantalla o mouse.
      */
     public static void MetodoDividir(String div1, String div2, String div3) throws NumberFormatException, HeadlessException {
 
