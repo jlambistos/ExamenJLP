@@ -18,13 +18,14 @@ public class ExamenJL {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        FuncionesJLP.MetodoSumar();
-
-        FuncionesJLP.MetodoRestar();
-
-        FuncionesJLP.MetodoMultiplicar();
         
-        FuncionesJLP.MetodoDividir();
+        FuncionesJLP.MetodoSumar(JOptionPane.showInputDialog("Ingresa valor 1 :"), JOptionPane.showInputDialog("Ingresa valor 2:"), JOptionPane.showInputDialog("Ingresa valor 3 :"));
+
+        FuncionesJLP.MetodoRestar(JOptionPane.showInputDialog("Ingresa valor 1 :"), JOptionPane.showInputDialog("Ingresa valor 2 :"), JOptionPane.showInputDialog("Ingresa valor 3 :"));
+
+        FuncionesJLP.MetodoMultiplicar(JOptionPane.showInputDialog("Ingresa valor 1 :"), JOptionPane.showInputDialog("Ingresa valor 2:"), JOptionPane.showInputDialog("Ingresa valor 3 :"));
+        
+        FuncionesJLP.MetodoDividir(JOptionPane.showInputDialog("Ingresa valor 1 :"), JOptionPane.showInputDialog("Ingresa valor 2 :"), JOptionPane.showInputDialog("Ingresa valor 3 :"));
         
     }
 
